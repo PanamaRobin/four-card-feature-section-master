@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 body
 {
     font-family: 'Poppins', sans-serif;
-    background: rgb(230, 230, 230);
+    background: hsl(0, 0%, 98%);
 }
 
 #header1
@@ -11,33 +11,70 @@ body
     text-align: center;
     font-size: 35px;
     font-family: Poppins;
+    font-weight: 200;
     margin-bottom: 0;
+    color: hsl(234, 12%, 34%);
 }
 
 #header2
 {
     text-align: center;
     font-size: 35px;
-    font-weight: 900;
+    font-weight: 600;
     font-family: Poppins;
     margin-top: 0;
     margin-bottom: 0;
+    color: hsl(234, 12%, 34%);
 }
 
 #subt
 {
     text-align: center;
     margin-top: 20px;
+    color: hsl(229, 6%, 66%);
 }
 
-.box
+.box-red
 {
     position: relative;
     border-radius: 5px;
     background: white;
-    border-top: 4px solid red;
+    border-top: 4px solid hsl(0, 78%, 62%);
     margin-bottom: 20px;
-    width: 400px;
+    width: 380px;
+    box-shadow:0 5px 5px rgba(66, 65, 65, 0.274);
+}
+
+.box-cyan
+{
+    position: relative;
+    border-radius: 5px;
+    background: white;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-bottom: 20px;
+    width: 380px;
+    box-shadow:0 5px 5px rgba(66, 65, 65, 0.274);
+}
+
+.box-blue
+{
+    position: relative;
+    border-radius: 5px;
+    background: white;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-bottom: 20px;
+    width: 380px;
+    box-shadow:0 5px 5px rgba(66, 65, 65, 0.274);
+}
+
+.box-orange
+{
+    position: relative;
+    border-radius: 5px;
+    background: white;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-bottom: 20px;
+    width: 380px;
     box-shadow:0 5px 5px rgba(66, 65, 65, 0.274);
 }
 
@@ -46,15 +83,38 @@ body
     margin: 30px;
 }
 
-#box-title
+.box-title
 {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 0;
+    color: hsl(234, 12%, 34%);
 }
 
-#box-body
+.box-body
 {
     font-size: 15px;
     margin-top: 10px;
+    margin-bottom: 50px;
+    color: hsl(229, 6%, 66%);
+}
+
+.box-image
+{
+    text-align: right;
+    margin: 30px;
+}
+
+.flex-container
+{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sides
+{
+    transform: translateY(50%);
 }

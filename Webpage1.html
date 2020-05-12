@@ -4,19 +4,69 @@
         <title>Webpage 1!</title>
         <link rel="stylesheet" href="styling.css">
     </head>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
     <body>
         <div>
+            <!--Title-->
             <p id="header1">Reliable, efficient delivery</p>
             <p id="header2">Powered by Technology</p>
             <p id="subt">Our Artificial Intelligence powered tools use millions of project data<br>points to ensure that your project is succesful</p>
-            <div class="box">
+        </div>
+
+        <div class="flex-container">
+            <!--Supervisor box-->
+            <div class="box-cyan sides">
                 <div class="box-text">
-                    <p id="box-title">Team Builder</p>
-                    <p id="box-body">Scans our talent network to crate the<br>optimal team for your project</p>
+                    <p class="box-title">Supervisor</p>
+                    <p class="box-body">Monitors activity to identify project<br>raodblocks</p>
+                </div>
+                <div class="box-image">
+                    <img src="images/icon-supervisor.svg">
                 </div>
             </div>
-            <!-- <div class="box">r</div> -->
 
+            <!--Team builder box-->
+            <div class="box-red">
+                <div class="box-text">
+                    <p class="box-title">Team Builder</p>
+                    <p class="box-body">Scans our talent network to crate the<br>optimal team for your project</p>
+                </div>
+                <div class="box-image">
+                    <img src="images/icon-team-builder.svg">
+                </div>
+            </div>
+
+            <!--Calculator box-->
+            <div class="box-blue sides">
+                <div class="box-text">
+                    <p class="box-title">Calculator</p>
+                    <p class="box-body">Uses data from past projects to provide<br>better delivery estimates</p>
+                </div>
+                <div class="box-image">
+                    <img src="images/icon-calculator.svg">
+                </div>
+            </div>
+
+            <!--Karma box-->
+            <div class="box-orange">
+                <div class="box-text">
+                    <p class="box-title">Karma</p>
+                    <p class="box-body">Regularly evaluates our talent to ensure<br>quality</p>
+                </div>
+                <div class="box-image">
+                    <img src="images/icon-karma.svg">
+                </div>
+            </div>
         </div>
+
+        <footer>
+            <p class="attribution">
+              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+              Coded by <a href="#">Your Name Here</a>.
+            </p>
+        </footer>
     </body>
 </html>
