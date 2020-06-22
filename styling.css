@@ -12,7 +12,8 @@ body
     font-size: 35px;
     font-family: Poppins;
     font-weight: 200;
-    margin-bottom: 0;
+    margin: 0;
+    margin-top: 35px;
     color: hsl(234, 12%, 34%);
 }
 
@@ -22,8 +23,7 @@ body
     font-size: 35px;
     font-weight: 600;
     font-family: Poppins;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     color: hsl(234, 12%, 34%);
 }
 
@@ -128,8 +128,7 @@ body
 
     .flex-container
     {
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 25px;
+        margin-left: 25px;
     }
 }
-
