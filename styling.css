@@ -118,3 +118,18 @@ body
 {
     transform: translateY(50%);
 }
+
+@media (max-width: 900px)
+{
+    .sides
+    {
+        transform: translateY(0);
+    }
+
+    .flex-container
+    {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
